@@ -41,8 +41,8 @@ class LocalFusionClassifier(nn.Module):
         self.conv_att_v = ConvModulOperationSpatialAttention(args.v_proj_dim, kernel_size=3)
 
         self.fusion_transformer = CrossTransformer(
-            source_num_frames=args.l_proj_length + args.token_length,
-            tgt_num_frames=max(args.a_proj_length, args.v_proj_length) + args.token_length,
+            source_num_frames=58,
+            tgt_num_frames=58,
             dim=dim,
             depth=fusion_depth,
             heads=heads,
