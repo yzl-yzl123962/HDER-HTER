@@ -35,6 +35,13 @@ scripts/                convenience launch and parsing scripts
 docs/                   result notes and source manifest
 ```
 
+Useful notes:
+
+- Paper/story draft: [`docs/paper_blueprint.md`](docs/paper_blueprint.md)
+- Result summary: [`docs/results.md`](docs/results.md)
+- Reproducibility notes: [`docs/reproducibility.md`](docs/reproducibility.md)
+- Code cleanup plan: [`docs/code_style_plan.md`](docs/code_style_plan.md)
+
 ## Data
 
 Expected dataset paths in the provided configs:
