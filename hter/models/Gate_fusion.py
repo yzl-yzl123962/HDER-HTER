@@ -5,6 +5,12 @@ from torch import nn
 
 
 class Gate_fusion(nn.Module):
+    """HTER evidence calibration and bounded disagreement-aware routing.
+
+    The module keeps the dual evidence paths intact, calibrates global/local
+    evidence with SAE and LBE, and then applies a budgeted HDE-RER gate shift.
+    """
+
     def __init__(self, args):
         super().__init__()
 
