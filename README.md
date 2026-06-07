@@ -38,6 +38,7 @@ docs/                   result notes and source manifest
 Useful notes:
 
 - Paper/story draft: [`docs/paper_blueprint.md`](docs/paper_blueprint.md)
+- Group meeting motivation: [`docs/motivation_for_group_meeting.md`](docs/motivation_for_group_meeting.md)
 - Innovation positioning: [`docs/innovation_positioning.md`](docs/innovation_positioning.md)
 - Result summary: [`docs/results.md`](docs/results.md)
 - Reproducibility notes: [`docs/reproducibility.md`](docs/reproducibility.md)
